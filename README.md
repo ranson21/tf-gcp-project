@@ -8,7 +8,7 @@ This is a minimal terraform module for implementing an instance of a Google Clou
 
 *terragrunt.hcl*
 ```hcl
-source = "git@github.com:ransontesting/tf-gcp-project"
+source = "git@github.com:ranson21/tf-gcp-project"
 
 inputs = {
   ...
