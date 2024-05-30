@@ -23,3 +23,21 @@ variable "labels" {
   type        = map(any)
   default     = {}
 }
+
+variable "budget_name" {
+  type        = string
+  description = "Name of the budget"
+  default     = ""
+}
+
+variable "budget_amount" {
+  type        = string
+  description = "Amount of the budget"
+  default     = ""
+}
+
+variable "budget_topic" {
+  type        = string
+  description = "Topic to publish budget related messages"
+  default     = ""
+}
