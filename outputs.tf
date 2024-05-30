@@ -9,3 +9,7 @@ output "project_number" {
 output "project" {
   value = local.project_key
 }
+
+output "budget_topic" {
+  value = google_pubsub_topic.budget[0].id
+}
