@@ -3,7 +3,7 @@
 ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
 
 
-<img width="450" alt="Terraform Logo" src="https://upload.wikimedia.org/wikipedia/commons/5/51/Google_Cloud_logo.svg"> <img src="https://www.freepnglogos.com/uploads/plus-icon/plus-icon-plus-svg-png-icon-download-1.png" width="30" > <img width="450" alt="Terraform Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Terraform_Logo.svg/512px-Terraform_Logo.svg.png">
+<img width="350" alt="Terraform Logo" src="https://upload.wikimedia.org/wikipedia/commons/5/51/Google_Cloud_logo.svg"> <img src="https://www.freepnglogos.com/uploads/plus-icon/plus-icon-plus-svg-png-icon-download-1.png" width="30" > <img width="350" alt="Terraform Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Terraform_Logo.svg/512px-Terraform_Logo.svg.png">
 
 
 ## Description
