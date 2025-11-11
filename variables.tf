@@ -13,6 +13,11 @@ variable "project_id" {
   type        = string
 }
 
+variable "org_id" {
+  description = "Unique ID for the project organization"
+  type        = string
+}
+
 variable "region" {
   description = "Geographic region for hosting the project"
   type        = string

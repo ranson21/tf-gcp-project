@@ -52,4 +52,5 @@ resource "google_project" "project" {
   project_id      = var.project_id
   billing_account = data.google_billing_account.account.id
   labels          = var.labels
+  org_id          = var.org_id
 }
