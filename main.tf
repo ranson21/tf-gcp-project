@@ -30,6 +30,15 @@ resource "google_billing_budget" "budget" {
     }
   }
 
+  # Scope the budget to the project this module creates. Without a budget_filter
+  # the API defaults to the ENTIRE billing account, so every project's budget
+  # measures every other project's spend — and the per-project kill switch this
+  # topic feeds would fire on spend the project does not control. See ADR-0003
+  # in the ranor repo.
+  budget_filter {
+    projects = ["projects/${google_project.project.number}"]
+  }
+
   all_updates_rule {
     pubsub_topic = google_pubsub_topic.budget[0].id
   }
